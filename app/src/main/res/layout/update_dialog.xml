@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/edit_text_nama_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kode Client" />
+    <TextView
+        android:id="@+id/edit_text_kode_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:hint="Kode Client" />
+
+    <EditText
+        android:id="@+id/edit_text_nomor_meter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Nomor Meter" />
+</LinearLayout>
